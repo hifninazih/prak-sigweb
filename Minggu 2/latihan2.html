@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIG Web</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 0%;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 1rem;
+      }
+
+      header h1 {
+        margin: 0;
+        padding: 2rem;
+        text-align: center;
+      }
+      main {
+        flex: 1;
+        display: flex;
+      }
+      aside {
+        background-color: #f1f1f1;
+        width: 20%;
+      }
+      section {
+        display: flex;
+        flex: 1;
+        padding: 1rem;
+      }
+      section div:nth-child(1) {
+        padding: 2rem;
+      }
+      section div:nth-child(2) {
+        padding: 2rem;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 1rem;
+        text-align: center;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      main aside ul li {
+        list-style-type: none;
+        padding: 1rem;
+        margin: 0;
+        background-color: dimgray;
+        cursor: pointer;
+      }
+
+      main aside ul li:hover {
+        background-color: gray;
+      }
+
+      main aside ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Praktikum SIG Web Minggu 2</h1>
+      </header>
+      <main>
+        <aside>
+          <ul>
+            <li><a href="latihan1.html">Latihan 1</a></li>
+            <li><a href="latihan2.html">Latihan 2</a></li>
+          </ul>
+        </aside>
+        <section>
+          <div>
+            <h1>Hifnie Nazih Al Ghifari</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam
+              beatae consequuntur exercitationem nemo ipsum voluptates fuga
+              reprehenderit hic aperiam fugit veniam libero blanditiis iste
+              quisquam quo vitae magnam voluptate sint vel autem corrupti
+              mollitia, adipisci aspernatur aliquid? Repellat, iste labore.
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://geodesi.ugm.ac.id/wp-content/uploads/sites/8/2025/02/1739507435357.jpeg"
+              alt=""
+            />
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>&copy; 2025 Hifnie Nazih Al Ghifari</p>
+      </footer>
+    </div>
+  </body>
+</html>
